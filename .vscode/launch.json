@@ -1,0 +1,64 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BankingAppServiceApplication<BankingAppService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.BankingAppService.BankingAppServiceApplication",
+            "projectName": "BankingAppService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BankUserServiceApplication<BankingUserService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.user.BankUserService.BankUserServiceApplication",
+            "projectName": "BankingUserService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TransactionServiceApplication<TransactionService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.serviceapp.elk.TransactionService.TransactionServiceApplication",
+            "projectName": "TransactionService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BankingAppServiceApplication<BankingAppService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.bankingAppService.BankingAppServiceApplication",
+            "projectName": "BankingAppService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BankUserServiceApplication<BankingUserService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.user.bankUserService.BankUserServiceApplication",
+            "projectName": "BankingUserService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TransactionServiceApplication<TransactionService>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.serviceapp.elk.transactionService.TransactionServiceApplication",
+            "projectName": "TransactionService",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+2024-10-11 12:59:41 INFO  c.e.b.BankingAppServiceApplication - Starting BankingAppServiceApplication using Java 21.0.4 with PID 9608 (C:\Users\MOHANPRASATHN\Desktop\service\BankingApplication\BankingAppService\target\classes started by MOHANPRASATHN in C:\Users\MOHANPRASATHN\Desktop\service\BankingApplication\BankingAppService)
+2024-10-11 12:59:41 DEBUG c.e.b.BankingAppServiceApplication - Running with Spring Boot v3.3.3, Spring v6.1.12
+2024-10-11 12:59:41 INFO  c.e.b.BankingAppServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.bankingAppService.repository.BankRepo; If you want this repository to be a Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ElasticsearchRepository
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 1 Elasticsearch repository interface.
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data JPA - Could not safely identify store assignment for repository candidate interface com.example.bankingAppService.repository.ELKRepo; If you want this repository to be a JPA repository, consider annotating your entities with one of these annotations: jakarta.persistence.Entity, jakarta.persistence.MappedSuperclass (preferred), or consider extending one of the following types with your repository: org.springframework.data.jpa.repository.JpaRepository
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Reactive Elasticsearch - Could not safely identify store assignment for repository candidate interface com.example.bankingAppService.repository.BankRepo; If you want this repository to be a Reactive Elasticsearch repository, consider annotating your entities with one of these annotations: org.springframework.data.elasticsearch.annotations.Document (preferred), or consider extending one of the following types with your repository: org.springframework.data.elasticsearch.repository.ReactiveElasticsearchRepository
+2024-10-11 12:59:42 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2024-10-11 12:59:42 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2d4eb6b4-7e2c-3384-b3d8-c39a9c9c46e8
+2024-10-11 12:59:42 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9099 (http)
+2024-10-11 12:59:42 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-10-11 12:59:42 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-10-11 12:59:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-10-11 12:59:42 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1218 ms
+2024-10-11 12:59:43 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-11 12:59:43 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-10-11 12:59:43 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-11 12:59:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2024-10-11 12:59:43 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f5e24b4
+2024-10-11 12:59:43 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2024-10-11 12:59:43 WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-11 12:59:43 WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-10-11 12:59:43 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-11 12:59:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11 12:59:44 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-10-11 12:59:45 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-11 12:59:46 INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2024-10-11 12:59:47 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9099 (http) with context path '/'
+2024-10-11 12:59:47 INFO  c.e.b.BankingAppServiceApplication - Started BankingAppServiceApplication in 5.387 seconds (process running for 1543.565)
+2024-10-11 12:59:47 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-10-11 13:00:34 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-11 13:00:34 INFO  c.e.b.service.BankServiceImpl - Shutting down virtual thread executor
+2024-10-11 13:00:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-11 13:00:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2024-10-11 13:00:34 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
